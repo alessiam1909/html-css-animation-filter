@@ -85,3 +85,21 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-11-icon:hover{
+    animation: rotate-icon2 2.5s ease-in-out;
+}
+
+@keyframes rotate-icon2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
