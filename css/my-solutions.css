@@ -111,14 +111,17 @@
 @keyframes slide-top-white12 {
     0% {
         left: 10%;
+        top: -10px;
     }
 
     50% {
-        left: calc(100% - 60px);
+        left: 60%;
+        top:-10px
     }
 
     100% {
         left: 10%;
+        top: -10px;
     }
 }
 
@@ -129,14 +132,17 @@
 @keyframes slide-bottom-white12 {
     0% {
         right: 20%;
+        bottom: -10px;
     }
 
     50% {
-        right: calc(100% - 60px);
+        right: 60%;
+        bottom: -10px;
     }
 
     100% {
         right: 20%;
+        bottom: -10px;
     }
 }
 
